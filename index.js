@@ -1,7 +1,7 @@
 const npm = require('npm');
 
 const npmInstallPackages = (_, { install }) => {
-  const modules = (install === typeof key) == 'string' ? [install] : install;
+  const modules = typeof install === 'string' ? [install] : install;
 
   return new Promise((resolve, reject) => {
     npm.load((loadError) => {
