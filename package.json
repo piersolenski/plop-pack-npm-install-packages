@@ -1,0 +1,43 @@
+{
+  "name": "plop-pack-npm-install-packages",
+  "version": "0.0.1",
+  "description": "A plop action to install packages with NPM",
+  "main": "index.js",
+  "keywords": [
+    "plop",
+    "plop-pack",
+    "plop-action",
+    "action",
+    "npm",
+    "install",
+    "package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piersolenski/plop-pack-npm-install-packages.git"
+  },
+  "author": {
+    "name": "Piers Olenski",
+    "url": "https://piersolenski.com"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "format": "eslint --fix index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "node-plop": "^0.26.2",
+    "prettier": "^2.1.2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piersolenski/plop-pack-npm-install-packages/issues"
+  },
+  "homepage": "https://github.com/piersolenski/plop-pack-npm-install-packages#readme",
+  "dependencies": {
+    "npm": "^6.14.8"
+  }
+}
