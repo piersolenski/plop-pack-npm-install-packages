@@ -38,6 +38,6 @@
   },
   "homepage": "https://github.com/piersolenski/plop-pack-npm-install-packages#readme",
   "dependencies": {
-    "npm": "^6.14.8"
+    "npm": "^7.0.12"
   }
 }
